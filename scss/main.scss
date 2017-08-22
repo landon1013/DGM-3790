@@ -1,0 +1,9 @@
+// Main SCSS, there should be no CSS in this page!
+
+
+// Global Specificity
+@import 'variables/variables.scss';
+@import 'partials/mixins.scss';
+
+// Site Specificity
+@import 'site/slider.scss';
