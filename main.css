@@ -3,3 +3,21 @@ body {
   body .wrapper {
     margin: 0 auto;
     width: 980px; }
+
+#carousel .carousel-indicators {
+  bottom: -35px; }
+  @media (max-width: 768px) {
+    #carousel .carousel-indicators {
+      bottom: -35px; } }
+  @media (max-width: 320px) {
+    #carousel .carousel-indicators {
+      bottom: -35px; } }
+  #carousel .carousel-indicators li {
+    background-color: white;
+    box-shadow: 0 -2px 1px silver; }
+  #carousel .carousel-indicators .active {
+    background-color: black;
+    border-color: initial;
+    box-shadow: initial; }
+#carousel .carousel-inner .active img {
+  margin: 0 auto; }
