@@ -21,3 +21,22 @@ body {
     box-shadow: initial; }
 #carousel .carousel-inner .active img {
   margin: 0 auto; }
+#carousel .carousel-inner img {
+  min-width: 100%; }
+
+.banner {
+  background: black;
+  margin-top: 40px; }
+  .banner .left {
+    width: 65%; }
+    .banner .left h4 {
+      color: white;
+      margin-bottom: 0;
+      padding: 20px 20px 11px; }
+    .banner .left p {
+      color: white;
+      font-size: 13px;
+      margin: 0;
+      padding: 0 20px 20px; }
+      .banner .left p + .list {
+        padding: 0 75px; }
