@@ -28,15 +28,15 @@ body {
   background: black;
   margin-top: 40px; }
   .banner .left {
-    width: 65%; }
+    width: 70%; }
     .banner .left h4 {
       color: white;
       margin-bottom: 0;
-      padding: 20px 20px 11px; }
+      padding: 20px 45px 11px; }
     .banner .left p {
       color: white;
       font-size: 13px;
       margin: 0;
-      padding: 0 20px 20px; }
+      padding: 0 45px 20px; }
       .banner .left p + .list {
-        padding: 0 75px; }
+        padding: 0 100px; }
