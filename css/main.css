@@ -1,8 +1,5 @@
 body {
-  background: $athens-gray;
-  .wrapper {
-    margin: 0 auto;
-  }
+  background: #eeecf1; 
 }
 
 section {
@@ -164,7 +161,8 @@ footer p {
 	font-size: 10px;
 	font-weight: lighter;
 	color: #ffffff;
-}	
+}
+	
 footer .textOne {
 	left: 0;
 	position: absolute;
@@ -201,4 +199,5 @@ footer ul li a {
 footer ul li img {
 	float: left;
 }
+
 

@@ -1,0 +1,35 @@
+#carousel {
+  .carousel-indicators {
+    bottom: -35px;
+
+    @include breakpoint(laptop) {
+      bottom: -35px;
+    }
+    @include breakpoint(phone) {
+      bottom: -35px;
+    }
+
+    li {
+      background-color: white;
+      box-shadow: 0 -2px 1px silver;
+    }
+
+    .active {
+      background-color: black;
+      border-color: initial;
+      box-shadow: initial;
+    }
+  }
+
+  .carousel-inner {
+    .active {
+      img {
+        margin: 0 auto;
+      }
+    }
+
+    img {
+      min-width: 100%;
+    }
+  }
+}

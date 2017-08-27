@@ -1,5 +1,40 @@
 body {
   background: #eeecf1; }
   body .wrapper {
-    margin: 0 auto;
-    width: 980px; }
+    margin: 0 auto; }
+
+#carousel .carousel-indicators {
+  bottom: -35px; }
+  @media (max-width: 768px) {
+    #carousel .carousel-indicators {
+      bottom: -35px; } }
+  @media (max-width: 320px) {
+    #carousel .carousel-indicators {
+      bottom: -35px; } }
+  #carousel .carousel-indicators li {
+    background-color: white;
+    box-shadow: 0 -2px 1px silver; }
+  #carousel .carousel-indicators .active {
+    background-color: black;
+    border-color: initial;
+    box-shadow: initial; }
+#carousel .carousel-inner .active img {
+  margin: 0 auto; }
+#carousel .carousel-inner img {
+  min-width: 100%; }
+
+.banner {
+  background: black;
+  margin-top: 40px; }
+  .banner .left {}
+    .banner .left h4 {
+      color: white;
+      margin-bottom: 0;
+      padding: 20px 45px 11px; }
+    .banner .left p {
+      color: white;
+      font-size: 13px;
+      margin: 0;
+      padding: 0 45px 20px; }
+      .banner .left p + .list {
+        padding: 0 100px; }
