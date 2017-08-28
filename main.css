@@ -164,10 +164,10 @@ footer .right {
   float: left; }
 
 footer div.arrow {
-  width: 40px;
+  width: 50px;
   height: auto;
   right: -12px;
-  top: -33px;
+  top: -45px;
   position: absolute;
   z-index: 0; }
 
@@ -197,17 +197,37 @@ footer .client-block {
   height: auto;
   margin: auto;
   float: left;
-  display: inline-block; }
+  display: inline-block;
+  text-align: center; }
 
 footer ul {
   margin: auto;
+  padding: 0;
   display: inline-block; }
 
 footer ul li {
   float: left;
   list-style-type: none;
   display: inline-block;
-  margin: 5px; }
+  margin: 7px; }
+
+footer ul li.adobe {
+  margin-top: 10px; }
+
+footer ul li.cocaCola {
+  margin-top: 16px; }
+
+footer ul li.franklinCovey {
+  margin-top: 10px; }
+
+footer ul li.nickelodeon {
+  margin-top: 3px; }
+
+footer ul li.ameritrade {
+  margin-top: 16px; }
+
+footer ul li.caseIh {
+  margin-top: 13px; }
 
 footer ul li a {
   float: left;

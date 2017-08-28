@@ -94,9 +94,11 @@ footer .client-block {
 	margin: auto;
 	float: left;
 	display: inline-block;
+	text-align: center;
 }
 footer ul {
 	margin: auto;
+	padding: 0;
 	display: inline-block;
 }
 footer ul li {
@@ -104,6 +106,24 @@ footer ul li {
 	list-style-type: none;
 	display: inline-block;
 	margin: 5px;
+}
+footer ul li .adobe {
+	marging-top: 10px;
+}
+footer ul li .cocaCola {
+	marging-top: 10px;
+}
+footer ul li .franklinCovey {
+	marging-top: 10px;
+}
+footer ul li .nickelodeon {
+	marging-top: 10px;
+}
+footer ul li .ameritrade {
+	marging-top: 10px;
+}
+footer ul li .caseIh {
+	marging-top: 10px;
 }
 footer ul li a {
 	float: left;
