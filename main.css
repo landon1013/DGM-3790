@@ -2,13 +2,17 @@ body {
   background: #eeecf1; }
   body .wrapper {
     margin: 0 auto;
-    width: 980px; }
+    width: 80%; }
 
 .shade {
   width: 100%;
   position: absolute;
   z-index: -2;
   left: 0; }
+
+.alignment {
+  margin: 0 auto;
+  padding: 0 45px; }
 
 #carousel .carousel-indicators {
   bottom: -35px; }
@@ -46,6 +50,22 @@ body {
       padding: 0 45px 20px; }
       .banner .left p + .list {
         padding: 0 100px; }
+
+/* Scss Document */
+h6 {
+  color: #4daaf0;
+  font-size: 100%; }
+
+p.imgtext {
+  margin-top: -.6em;
+  font-size: 87.5%; }
+
+hr {
+  border-top: 1px solid #888;
+  border-bottom: 1px solid white;
+  margin-top: 1em;
+  color: black;
+  box-shadow: -6px 6px 30px 1px #222; }
 
 header {
   width: 100%;

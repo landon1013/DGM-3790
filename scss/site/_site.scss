@@ -2,7 +2,7 @@ body {
   background: $athens-gray;
   .wrapper {
     margin: 0 auto;
-    width: 980px;
+    width: 80%;
   }
 }
 
@@ -11,4 +11,9 @@ body {
 	position: absolute; 
 	z-index: -2;
 	left: 0;
+}
+
+.alignment {
+	margin: 0 auto;
+	padding: 0 45px;
 }
