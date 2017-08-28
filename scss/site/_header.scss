@@ -1,0 +1,59 @@
+header {
+	width: 100%;
+	height: auto;
+	position: relative;
+	overflow: hidden;
+}
+header .header-first-block, header .header-second-block {
+	width: 100%;
+	height: auto;
+	float: left;
+	display: block;
+}
+header .logo {
+	width: 100px;
+	margin-top: 20px;
+	margin-right: 10px; 
+	float: left;
+}
+header .googleCompliant {
+	width: 100px;
+	margin-top: 8px;
+	position: absolute; 
+	z-index: 1;
+	right: 0;
+}
+header .line {
+	width: calc(100% - 110px);
+	margin-top: 42px;
+	float: left;
+}
+header nav {
+	width: 100%;
+	float: left;
+	display: inline-block;
+}
+header nav ul {
+	float: right;
+	margin: auto;
+	display: inline-block;
+}
+header nav ul li {
+	float: left;
+	list-style-type: none;
+	display: inline-block;
+	margin: 5px 0px 5px 10px;
+}
+header nav ul li a {
+	font-size: 10px;
+	text-decoration: none;
+	color: #b2b2b2;
+}
+header nav ul li a:hover {
+	color: #5ebb46;
+	text-decoration: none;
+}
+header nav ul li img {
+	float: left;
+	padding: 0 5px 0 5px;
+}

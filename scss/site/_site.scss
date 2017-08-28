@@ -5,3 +5,10 @@ body {
     width: 980px;
   }
 }
+
+.shade {
+	width: 100%;
+	position: absolute; 
+	z-index: -2;
+	left: 0;
+}
