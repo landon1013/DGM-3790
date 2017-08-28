@@ -19,6 +19,46 @@ body .wrapper {
   z-index: -2;
   left: 0; }
 
+#content {
+  margin: auto; }
+
+#carousel .carousel-indicators {
+  bottom: -35px; }
+  @media (max-width: 768px) {
+    #carousel .carousel-indicators {
+      bottom: -35px; } }
+  @media (max-width: 320px) {
+    #carousel .carousel-indicators {
+      bottom: -35px; } }
+  #carousel .carousel-indicators li {
+    background-color: white;
+    box-shadow: 0 -2px 1px silver; }
+  #carousel .carousel-indicators .active {
+    background-color: black;
+    border-color: initial;
+    box-shadow: initial; }
+#carousel .carousel-inner .active img {
+  margin: 0 auto; }
+#carousel .carousel-inner img {
+  min-width: 100%; }
+
+.banner {
+  background: black;
+  margin-top: 40px; }
+  .banner .left {
+    width: 100%; }
+    .banner .left h4 {
+      color: white;
+      margin-bottom: 0;
+      padding: 20px 45px 11px; }
+    .banner .left p {
+      color: white;
+      font-size: 13px;
+      margin: 0;
+      padding: 0 45px 20px; }
+      .banner .left p + .list {
+        padding: 0 100px; }
+
 header {
   width: 100%;
   height: auto;
@@ -77,9 +117,6 @@ header nav ul li a:hover {
 header nav ul li img {
   float: left;
   padding: 0 5px 0 5px; }
-
-#content {
-  margin: auto; }
 
 footer .footer-first-block {
   width: 100%;
@@ -190,42 +227,5 @@ footer ul li a {
 
 footer ul li img {
   float: left; }
-
-#carousel .carousel-indicators {
-  bottom: -35px; }
-  @media (max-width: 768px) {
-    #carousel .carousel-indicators {
-      bottom: -35px; } }
-  @media (max-width: 320px) {
-    #carousel .carousel-indicators {
-      bottom: -35px; } }
-  #carousel .carousel-indicators li {
-    background-color: white;
-    box-shadow: 0 -2px 1px silver; }
-  #carousel .carousel-indicators .active {
-    background-color: black;
-    border-color: initial;
-    box-shadow: initial; }
-#carousel .carousel-inner .active img {
-  margin: 0 auto; }
-#carousel .carousel-inner img {
-  min-width: 100%; }
-
-.banner {
-  background: black;
-  margin-top: 40px; }
-  .banner .left {
-    width: 100%; }
-    .banner .left h4 {
-      color: white;
-      margin-bottom: 0;
-      padding: 20px 45px 11px; }
-    .banner .left p {
-      color: white;
-      font-size: 13px;
-      margin: 0;
-      padding: 0 45px 20px; }
-      .banner .left p + .list {
-        padding: 0 100px; }
 
 /*# sourceMappingURL=main.css.map */
