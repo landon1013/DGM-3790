@@ -17,65 +17,6 @@ hr{
 	color: black;
 	box-shadow: -6px 6px 30px 1px #222;
 }
-i{
-	padding: .25em .5em;
-	color: white;
-}
-
-.sizebar{
-	display: flex;
-	flex-direction: column;
-	align-content: center;
-	
-	
-}
-.button{
-	width: 80%;
-	text-align: center;
-	z-index: 10;
-	position: absolute;
-	top: 250px;
-	
-	
 
 
-.seePricing{
-	background-color: $lochmara;
-	border-radius: 8px;
-	padding: .5em 1em;
 
-
-	
-	
-	.btnP{
-		
-		font-size: 18pt;
-		color: white;
-		border-right: 1px solid white;
-		padding: .2em;
-		margin-right: .2em;
-	
-		
-	}
-	}
-}
-
-p.warning{
-	width: 80%;
-	text-align: center;
-	padding: 2em;
-	z-index: 10;
-	position: absolute;
-	top: 290px;
-	font-size: .8em;
-	
-}
-
-p.textualel{
-	text-align: center;
-	width: 80%;
-	color: $lochmara;
-	z-index: 10;
-	position: absolute;
-	top: 10px;
-}
