@@ -1,203 +1,231 @@
 body {
-  background: #eeecf1; 
-}
+  background: #eeecf1; }
+  body .wrapper {
+    margin: 0 auto; }
 
 section {
-	width: 70%;
-	height: auto;
-	margin-left: 15%;
-}
+  width: 70%;
+  height: auto;
+  margin-left: 15%; }
 
 body .wrapper {
-    margin: 0 auto;
-    width: 100%;
-    height: auto; 
-}
+  margin: 0 auto;
+  width: 100%;
+  height: auto; }
+
 .shade {
-	width: 100%;
-	position: absolute; 
-	z-index: -2;
-	left: 0;
-}
+  width: 100%;
+  position: absolute;
+  z-index: -2;
+  left: 0; }
+
+#content {
+  margin: auto; }
+
+#carousel .carousel-indicators {
+  bottom: -35px; }
+  @media (max-width: 768px) {
+    #carousel .carousel-indicators {
+      bottom: -35px; } }
+  @media (max-width: 320px) {
+    #carousel .carousel-indicators {
+      bottom: -35px; } }
+  #carousel .carousel-indicators li {
+    background-color: white;
+    box-shadow: 0 -2px 1px silver; }
+  #carousel .carousel-indicators .active {
+    background-color: black;
+    border-color: initial;
+    box-shadow: initial; }
+#carousel .carousel-inner .active img {
+  margin: 0 auto; }
+#carousel .carousel-inner img {
+  min-width: 100%; }
+
+.banner {
+  background: black;
+  margin-top: 40px; }
+  .banner .left {
+    width: 100%; }
+    .banner .left h4 {
+      color: white;
+      margin-bottom: 0;
+      padding: 20px 45px 11px; }
+    .banner .left p {
+      color: white;
+      font-size: 13px;
+      margin: 0;
+      padding: 0 45px 20px; }
+      .banner .left p + .list {
+        padding: 0 100px; }
 
 header {
-	width: 100%;
-	height: auto;
-	position: relative;
-	overflow: hidden;
-}
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden; }
+
 header .header-first-block, header .header-second-block {
-	width: 100%;
-	height: auto;
-	float: left;
-	display: block;
-}
+  width: 100%;
+  height: auto;
+  float: left;
+  display: block; }
+
 header .logo {
-	width: 100px;
-	margin-top: 20px;
-	margin-right: 10px; 
-	float: left;
-}
+  width: 100px;
+  margin-top: 20px;
+  margin-right: 10px;
+  float: left; }
+
 header .googleCompliant {
-	width: 100px;
-	margin-top: 8px;
-	position: absolute; 
-	z-index: 1;
-	right: 0;
-}
+  width: 100px;
+  margin-top: 8px;
+  position: absolute;
+  z-index: 1;
+  right: 0; }
+
 header .line {
-	width: calc(100% - 110px);
-	margin-top: 42px;
-	float: left;
-}
+  width: calc(100% - 110px);
+  margin-top: 42px;
+  float: left; }
+
 header nav {
-	width: 100%;
-	float: left;
-	display: inline-block;
-}
+  width: 100%;
+  float: left;
+  display: inline-block; }
+
 header nav ul {
-	float: right;
-	margin: auto;
-	display: inline-block;
-}
+  float: right;
+  margin: auto;
+  display: inline-block; }
+
 header nav ul li {
-	float: left;
-	list-style-type: none;
-	display: inline-block;
-	margin: 5px 0px 5px 10px;
-}
+  float: left;
+  list-style-type: none;
+  display: inline-block;
+  margin: 5px 0px 5px 10px; }
+
 header nav ul li a {
-	font-size: 10px;
-	text-decoration: none;
-	color: #b2b2b2;
-}
+  font-size: 10px;
+  text-decoration: none;
+  color: #b2b2b2; }
+
 header nav ul li a:hover {
-	color: #5ebb46;
-	text-decoration: none;
-}
+  color: #5ebb46;
+  text-decoration: none; }
+
 header nav ul li img {
-	float: left;
-	padding: 0 5px 0 5px;
-}
+  float: left;
+  padding: 0 5px 0 5px; }
 
-#content{
-	margin: auto;
-}
-
-
-footer {
-
-}
 footer .footer-first-block {
-	width: 100%;
-	float: left;
-}
+  width: 100%;
+  float: left; }
+
 footer .logo {
-	width: 100px;
-	margin: 40px 50px 20px 0;
-	position: relative;
-	float: right;
-}
+  width: 100px;
+  margin: 40px 50px 20px 0;
+  position: relative;
+  float: right; }
+
 footer .footer-second-block {
-	width: 96%;
-	height: auto;
-	margin-left: 2%;
-	float: left;
-	box-shadow: 0px 0px 10px #979794;
-	background-color: #ffffff;
-}
+  width: 96%;
+  height: auto;
+  margin-left: 2%;
+  float: left;
+  box-shadow: 0px 0px 10px #979794;
+  background-color: #ffffff; }
+
 footer .footer-third-block {
-	width: 100%;
-	float: left;
-	position: relative;
-	display: block;
-}
+  width: 100%;
+  float: left;
+  position: relative;
+  display: block; }
+
 footer .bar {
-	width: 100%;
-	height: 30px;
-	float: left;
-	position: relative;
-	z-index: 1;
-	background-color: #0079d5;
-}
+  width: 100%;
+  height: 30px;
+  float: left;
+  position: relative;
+  z-index: 1;
+  background-color: #0079d5; }
+
 footer .overlay {
-	width: 100%;
-	height: 15px;
-	background-color: #4daaf0;
-	position: absolute;
-	z-index: 2;
-	top: 0;
-}
+  width: 100%;
+  height: 15px;
+  background-color: #4daaf0;
+  position: absolute;
+  z-index: 2;
+  top: 0; }
+
 footer .left, footer .right {
-	position: absolute;
-	width: 20px;
-	border-top: 15px solid transparent;
-	z-index: -1;
-}
+  position: absolute;
+  width: 20px;
+  border-top: 15px solid transparent;
+  z-index: -1; }
+
 footer .left {
-	right: 0px;
-	top: -15px;
-	border-left: 20px #2a2f31 solid;
-}
+  right: 0px;
+  top: -15px;
+  border-left: 20px #2a2f31 solid; }
+
 footer .right {
-	left: 0px;
-	top: -15px;
-	border-right: 20px #2a2f31 solid;
-	float: left;
-}
+  left: 0px;
+  top: -15px;
+  border-right: 20px #2a2f31 solid;
+  float: left; }
+
 footer div.arrow {
-	width: 40px;
-	height: auto;
-	right: -12px;
-	top: -33px;
-	position: absolute;
-	z-index: 0;
-}
+  width: 40px;
+  height: auto;
+  right: -12px;
+  top: -33px;
+  position: absolute;
+  z-index: 0; }
+
 footer div.arrow img {
-	width: 100%;
-	height: auto;
-}
+  width: 100%;
+  height: auto; }
+
 footer p {
-	font-size: 10px;
-	font-weight: lighter;
-	color: #ffffff;
-}
-	
+  font-size: 10px;
+  font-weight: lighter;
+  color: #ffffff; }
+
 footer .textOne {
-	left: 0;
-	position: absolute;
-	padding: 8px 20px; 
-	z-index: 2;
-}
+  left: 0;
+  position: absolute;
+  padding: 8px 20px;
+  z-index: 2; }
+
 footer .textTwo {
-	position: absolute;
-	right: 0;
-	padding: 8px 20px; 
-	z-index: 2;
-}
+  position: absolute;
+  right: 0;
+  padding: 8px 20px;
+  z-index: 2; }
+
 footer .client-block {
-	width: 100%;
-	height: auto;
-	margin: auto;
-	float: left;
-	display: inline-block;
-}
+  width: 100%;
+  height: auto;
+  margin: auto;
+  float: left;
+  display: inline-block; }
+
 footer ul {
-	margin: auto;
-	display: inline-block;
-}
+  margin: auto;
+  display: inline-block; }
+
 footer ul li {
-	float: left;
-	list-style-type: none;
-	display: inline-block;
-	margin: 5px;
-}
+  float: left;
+  list-style-type: none;
+  display: inline-block;
+  margin: 5px; }
+
 footer ul li a {
-	float: left;
-	text-decoration: none;
-}
+  float: left;
+  text-decoration: none; }
+
 footer ul li img {
-	float: left;
-}
+  float: left; }
 
-
+/*# sourceMappingURL=main.css.map */
