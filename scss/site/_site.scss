@@ -1,5 +1,7 @@
 body {
   background: $athens-gray;
+  font-family: $mainFont;
+
   .wrapper {
     margin: 0 auto;
     width: 80%;
@@ -8,7 +10,7 @@ body {
 
 .shade {
 	width: 100%;
-	position: absolute; 
+	position: absolute;
 	z-index: -2;
 	left: 0;
 }
