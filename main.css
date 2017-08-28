@@ -1,5 +1,6 @@
 body {
-  background: #eeecf1; }
+  background: #eeecf1;
+  font-family: Arial; }
   body .wrapper {
     margin: 0 auto;
     width: 80%; }
@@ -37,19 +38,40 @@ body {
 .banner {
   background: black;
   margin-top: 40px; }
-  .banner .left {
-    width: 70%; }
-    .banner .left h4 {
-      color: white;
-      margin-bottom: 0;
-      padding: 20px 45px 11px; }
-    .banner .left p {
-      color: white;
-      font-size: 13px;
-      margin: 0;
-      padding: 0 45px 20px; }
-      .banner .left p + .list {
-        padding: 0 100px; }
+  .banner .wrapper {
+    display: flex;
+    justify-content: space-between; }
+    .banner .wrapper .left {
+      width: 70%; }
+      .banner .wrapper .left h4 {
+        color: white;
+        margin-bottom: 0;
+        padding: 20px 45px 11px; }
+      .banner .wrapper .left p {
+        color: white;
+        font-size: 13px;
+        margin: 0;
+        padding: 0 45px 20px; }
+        .banner .wrapper .left p + .list {
+          padding: 0 100px; }
+    .banner .wrapper .right {
+      padding-bottom: 20px; }
+      .banner .wrapper .right img {
+        margin: 10px 0; }
+      .banner .wrapper .right p {
+        color: #0077d1;
+        font-size: 14px;
+        margin: 0; }
+        .banner .wrapper .right p:nth-child(4) {
+          color: #3a4448; }
+        .banner .wrapper .right p:nth-child(5) {
+          color: #5ebb46; }
+      .banner .wrapper .right hr {
+        border-color: #3a4448;
+        margin: 0; }
+      .banner .wrapper .right h4 {
+        color: #3a4448;
+        font-size: 20px; }
 
 /* Scss Document */
 h6 {
